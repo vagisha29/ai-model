@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-model = pickle.load(open("model.pkl", "rb"))
-le_soil = pickle.load(open("le_soil.pkl", "rb"))
-le_crop = pickle.load(open("le_crop.pkl", "rb"))
+model = pickle.load(open("model1.pkl", "rb"))
+le_soil = pickle.load(open("le_soil1.pkl", "rb"))
+le_crop = pickle.load(open("le_crop1.pkl", "rb"))
 
 
 st.set_page_config(page_title="Crop AI", page_icon="🌱")
